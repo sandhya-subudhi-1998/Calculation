@@ -62,5 +62,4 @@ public class Calculation2Application {
 
 	    System.out.println(first + " " + operator + " " + second + " ==> " + result);
 	  }
-
 }

@@ -23,4 +23,5 @@ class CalculationApplicationTests {
 	    public void mySimpleEqualsTestDiv(){
 	        assertEquals(2, CalculationApplication.div(10,5));
 	    }
+	 
 }
