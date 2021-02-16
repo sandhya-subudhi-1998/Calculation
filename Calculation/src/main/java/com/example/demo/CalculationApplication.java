@@ -64,3 +64,5 @@ public class CalculationApplication {
 	    System.out.println(first + " " + operator + " " + second + " ==> " + result);
 	  }
 	}
+
+
