@@ -1,14 +1,12 @@
 package com.example.demo;
 
-import org.springframework.boot.SpringApplication;
+import java.util.Scanner;
 
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import java.util.*;
-
-
 @SpringBootApplication
-public class CalculationApplication {
+public class Calculation2Application {
 
 	static double add(double a,double b) {
 		return a+b;
@@ -27,7 +25,7 @@ public class CalculationApplication {
 	}
 	
 	public static void main(String[] args) {
-		SpringApplication.run(CalculationApplication.class, args);
+		SpringApplication.run(Calculation2Application.class, args);
 		
 		Scanner reader = new Scanner(System.in);
 	    System.out.print("Enter two numbers: ");
@@ -64,6 +62,5 @@ public class CalculationApplication {
 
 	    System.out.println(first + " " + operator + " " + second + " ==> " + result);
 	  }
-	}
 
-
+}
